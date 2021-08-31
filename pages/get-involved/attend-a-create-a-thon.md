@@ -9,23 +9,23 @@ sidenav: create-a-thon
 hero:
   color: red
   callout:
-    text: Attend a <br> Create-a-thon
-    subtext: In just a few hours, creators and organizations of all kinds work together to generate hundreds of pieces of compelling media that spread census awareness and inoculate against disinformation.
+    text: Create-a-thon Events
+    subtext: In just a few hours, creators and organizations of all kinds work together to generate hundreds of pieces of compelling media that spread census awareness and inoculate against disinformation. Events are now virtual.
 
 ---
 
 <section class="usa-section usa-content">
 <div class="usa-width-three-fourths" markdown="1" id="overview" >
 # Join Creatives For The Count
-Create-a-thons bring people together to develop tangible digital content that organizations can use to amplify their existing census outreach efforts.
+Create-a-thons bring people together (currently from a physical distance) to develop tangible digital content that organizations can use to amplify their existing census outreach efforts.
 <br><br>
-At these engaging workshops, creative students and professionals collaborate with nonprofit and civic organizations to reach hard-to-count communities in their area. In an action-packed session that can run from 2 hours to a full day, participants learn about the importance of getting out the count, connect with other organizations working to reach hard-to-count communities, and generate a bank of content to support 2020 Census outreach efforts.
+At these engaging workshops, creative students and professionals collaborate with nonprofit and civic organizations to reach hard-to-count communities in their area. In an action-packed session that can run from 2 hours to a weekend, participants learn about the importance of getting out the count, connect with other organizations working to reach hard-to-count communities, and generate a bank of content to support 2020 Census outreach efforts.
 </div>
 
 <div class="usa-width-three-fourths bottom-space" markdown="1" id="upcoming-events">
 <div class="divider"></div>
-#### Upcoming Events
-Find an event near you to help your community receive the representation and resources it depends on.
+#### See Past Events
+See examples of how community  partners used the create -a-thon model to develop resources  needed to get out the count.
 </div>
 <div class="button-wrapper usa-width-one-half">
   <div class="button-bg yellow" style="width:45%;"></div>
@@ -100,7 +100,7 @@ Need our support? <a href="https://coil992463.typeform.com/to/N2daiF" target="_b
   <a class="usa-button usa-button-big usa-button-primary" href="https://docs.google.com/document/d/1zgJ3n_xUaqLlZY02eyjYkKgO1JKbmxhVKpTTpgALjmI/edit?usp=sharing" target="_blank">Get the toolkit</a>
 </div>
 <p class="text-small">Don't have access to Google Docs?<br>
-Download the toolkit <a href="{{site.baseurl}}/assets/files/CreativesForTheCount_Toolkit.zip">here</a></p>
+Download the toolkit <a href="{{site.baseurl}}/assets/files/virtual-toolkit.pdf">here</a></p>
 
 <div class="divider"></div>
 </div>

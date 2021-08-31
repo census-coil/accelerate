@@ -5,6 +5,34 @@
     margin-top: -45rem;
   }
 }
+
+
+#prize-banner {
+  width: 100%;
+  background-color: $color-secondary-darkest;
+  font-weight: bold;
+  color: $color-primary-darkest;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none !important;
+}
+
+@media (max-width: 690px) {
+  #prize-banner a {
+    display:block;
+    text-decoration: none !important;
+    border-bottom: none;
+  }
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none !important;
+    border-bottom: none;
+}
+
 #video {
   width: 100%;
   height: 100%;
@@ -315,4 +343,29 @@
 #doodle-06 {
   right: 20rem;
   top: 18rem;
+}
+
+#doodle-07 {
+  left: 18rem;
+  top: 18rem;
+}
+
+#doodle-08 {
+  left: 20rem;
+  top: 100rem;
+}
+
+#doodle-09 {
+  left: 15rem;
+  top: 120rem;
+}
+
+#doodle-08 {
+  left: 25rem;
+  top: 150rem;
+}
+
+#doodle-09 {
+  left: 20rem;
+  bottom: 50rem;
 }

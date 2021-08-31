@@ -1,0 +1,49 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
+  <head>
+    {% include meta.html %}
+    {% include styles.html %}
+    <link rel="stylesheet"
+  href="{{site.baseurl}}/assets/uswds/css/uswds.min.css"
+  media="screen">
+  <script src="https://kit.fontawesome.com/25526fde13.js" crossorigin="anonymous"></script>
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+        {% include analytics.html %}
+    {% endif %}
+  </head>
+
+  <body class="smtk-body">
+
+    {% include sm-toolkit/header.html %}
+
+    <main id="main-content">
+      {% include sm-toolkit/hero.html %}
+      {% if page.navbar %}
+        {% include sm-toolkit/toolkit-nav.html links = page.navbar %}
+      {% endif %}
+      
+      {{ content }}
+
+      {% include sm-toolkit/lightbox.html %}
+    </main>
+
+    <footer class="smtk-header height-card">
+    </footer>
+    
+    {% include scripts.html %}
+    <script src="{{ site.baseurl }}/assets/js/smtk/main.js"></script>
+    {% for script in page.scripts %}
+      {% if script.isExternal %}
+        <script src="{{ script.src }}" {% for attr in script.attrs %}{{attr}}{% endfor %}></script>
+      {% else %}
+        <script src="{{ site.baseurl }}/assets/js/{{script}}"></script>
+      {% endif %}
+    {% endfor %}
+    <script src="{{ site.baseurl }}/assets/js/ally.min.js"></script>
+    {% if page.layout == 'landing' %}
+  </div>
+    {% endif %}
+  </body>
+</html>

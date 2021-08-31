@@ -7,18 +7,32 @@
 # `primary.links` to "primary":
 #
 # primary:
-#   links: primary
+#   links: primarys
 #
 primary:
   - text: About
     href: /about/
+  - text: Video Challenge
+    links:
+      - text: About the Challenge
+        href: /video-challenge/
+      - text: Meet the Judges
+        href: /judges/
+      - text: Award Winners
+        href: /awards/
+      - text: All Videos
+        href: /video-database/
   - text: Showcase
     href: /showcase/
+  - text: Partner With Us
+    href: /get-involved/partner-with-us/
+  - text: Virtual Create-a-thon
+    href: /get-involved/virtual-create-a-thon/
+  - text: Our Impact
+    href: /our-impact/
   - text: Get Involved
     links:
-      - text: Partner With Us
-        href: /get-involved/partner-with-us/
-      - text: Attend a Create-a-thon
+      - text: Create-a-thon Events
         href: /get-involved/attend-a-create-a-thon/
       - text: Become an Ambassador
         href: /get-involved/become-an-ambassador/
@@ -35,6 +49,30 @@ about:
   - text: An Initiative of COIL
     href: /about/#coil-initiative
 
+impact-report:
+  - text: The Challenge
+    href: /our-impact-low-motion/#the-challenge
+  - text: The Process
+    href: /our-impact-low-motion/#the-process
+  - text: Our Impact
+    href: /our-impact-low-motion/#our-impact
+
+video-challenge:
+  - text: Get Out The Count - Video Challenge
+    href: /video-challenge/#accelerate-video-challenge
+  - text: Background
+    href: /video-challenge/#background
+  - text: FAQ
+    href: /video-challenge/#faq
+
+awards:
+  - text: Communities For the Count
+    href: /awards/#communities-for-the-count
+  - text: Prizes
+    href: /awards/#prizes
+  - text: RSVP
+    href: /awards/#rsvp
+
 partner:
   - text: Partner With Us
     href: /get-involved/partner-with-us/#contact
@@ -48,6 +86,16 @@ create-a-thon:
     href: /get-involved/attend-a-create-a-thon/#how-it-works
   - text: Run Your Own
     href: /get-involved/attend-a-create-a-thon/#run-your-own
+
+virtual-create-a-thon:
+  - text: About
+    href: /get-involved/virtual-create-a-thon/#about
+  - text: Why Virtual
+    href: /get-involved/virtual-create-a-thon/#why-virtual
+  - text: Run Your Own
+    href: /get-involved/virtual-create-a-thon/#run-your-own
+  - text: Become An Ambassador
+    href: /get-involved/virtual-create-a-thon/#become-an-ambassador
 
 ambassador:
   - text: Overview
@@ -71,7 +119,7 @@ footer:
 
 subfooter:
   - text: About COIL
-    href: https://opportunity.census.gov/coil.html
+    href: https://opportunity.census.gov/coil
   - text: US Census Bureau
     href: https://www.census.gov/
   - text: Official 2020 Census Site

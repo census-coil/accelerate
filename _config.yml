@@ -8,11 +8,9 @@ permalink: pretty
 styles:
   - /assets/css/styles.css
 sass:
-  style: compressed
+  # style: compressed
 
-scripts:
-  - src: /assets/uswds/js/uswds.min.js
-    async: true
+google_analytics: UA-155922885-1
 
 collections:
   apply:
